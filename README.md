@@ -13,6 +13,12 @@ See E-Mail.  The concept of SXP is similar to SMTP, although it employs a combin
 ## Hasn't this been done before?
 I hope so.  It's taken long enough.  Let's see some actually successful providers who can interoperate
 
+## This specification is trash!
+I'm glad you think so! You must have great ideas, so please help! I don't necessarily wish to build the perfect social media platform--I wish to get the herd off of one dangerously large one without losing key crucial capabilities.
+
+## What is the actual direction?
+At this time it's almost entirely up in the air.  You can see more stuff at [doc](./doc), and particularly [the requirements](./doc/requirements.md) table to help guide the specification along as a WIP.
+
 ## Communication Model
 There are several ways Social Exchange can be implemented.  These different styles of service answer to different users' needs, mostly dealing in the convenience-security tradeoff.  But the bare requirements to be a valid Social Exchange Provider are pretty straightforward.  A public-facing social exchange host is required to interoperate with other providers.  This is a service which is capable of two-way authentication and handles pushing and pulling of data between providers.  Once updates are pushed and content is pulled, it's up to your implementation to make fancy presentation and management features to attract users.
 

@@ -23,3 +23,7 @@ Anything other than "ACCEPT " followed by a client-listed version is a failed ha
 
 ### Alternate protocols
 SXP servers MAY accept traffic destined for other protocols where the client initiates a handshake.
+
+### Encryption
+Immediately after the protocol version is negotiated, the server must present a certificate, and the client must decide whether or not to honor it. Then the client presents a client certificate and the server must decide whether to honor that.  At this point all communications are encrypted.
+
