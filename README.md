@@ -11,7 +11,7 @@ The persons you see to your left and right are addicted to social networking--on
 See E-Mail.  The concept of SXP is similar to SMTP, although it employs a combination of pushing updates metadata and pulling on-demand only as needed, which prevents unnecessary propagation of data.
 
 ## Hasn't this been done before?
-I hope so.  It's taken long enough.  Let's see some actually successful providers who can interoperate
+I hope so.  It's taken long enough.  Let's see some actually successful providers who can interoperate. There is Mastodon, but it's more a twitter replacement.  We need a system for sharing more types of content, managing that content into collections, and even sharing that content with people who don't have a provider at all.  We also want to support end-to-end message encryption.
 
 ## This specification is trash!
 I'm glad you think so! You must have great ideas, so please help! I don't necessarily wish to build the perfect social media platform--I wish to get the herd off of one dangerously large one without losing key crucial capabilities.

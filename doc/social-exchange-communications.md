@@ -27,3 +27,9 @@ SXP servers MAY accept traffic destined for other protocols where the client ini
 ### Encryption
 Immediately after the protocol version is negotiated, the server must present a certificate, and the client must decide whether or not to honor it. Then the client presents a client certificate and the server must decide whether to honor that.  At this point all communications are encrypted.
 
+### Provider-Provider Transactions
+When a user creates content and allows another user on another network to receive it, the first provider will use UPDATE
+    UPDATE TO bob@b.example.com FROM alice@a.example.com <content-id> <type> <preview-bytesize><preview>
+
+To which sensible responses include
+    200 OK
